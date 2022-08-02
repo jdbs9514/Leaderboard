@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Indie Flower', cursive;
+}
+
+#title {
+  margin-top: 50px;
+}
+
+.display-places {
+  margin-top: 50px;
+}
+
+.table-title {
+  display: flex;
+  gap: 10px;
+}

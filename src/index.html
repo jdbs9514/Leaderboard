@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4dc3d7e55b.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="title">
+            LoaderBoard <i class="fa-solid fa-ranking-star"></i>
+        </h1>
+    </header>
+    <div class="display-places">
+        <section class="score">
+            <div class="table-title">
+                <h2>Recent Scores</h2>
+                <button type="button" id="refresh-button">Refresh</button>
+            </div>
+            <ul id="score-table">
+
+            </ul>
+        </section>
+        <section class="form-add">
+            <h2>Add your score</h2>
+            <form id="form">
+                <input type="text" placeholder="Your name" id="inputname" required>
+                <input type="text" placeholder="Your score" id="inputscore" required>
+                <button type="button" id="add">submit</button>
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>
