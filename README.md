@@ -10,6 +10,15 @@ The leaderboard is a table to display score submitted by different palyers. in t
 
 Clone this repo: https://github.com/jdbs9514/Leaderboard.git
 
+After cloning this project, run the following commands:
+
+```markdown
+npm install
+npm start
+```
+
+The `npm install` command installs all dependencies used in the project while `npm start` is used to start the development server and view the application on the browser.
+
 ## Built with
 
 - HTML, CSS, JavaScript
