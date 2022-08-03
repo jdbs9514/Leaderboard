@@ -11,9 +11,36 @@
 
 .display-places {
   margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#refresh-button {
+  box-shadow: 5px 5px 5px black;
 }
 
 .table-title {
   display: flex;
+  gap: 17px;
+}
+
+.form-add {
+  margin-top: 10px;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
   gap: 10px;
+}
+
+body {
+  padding: 20%;
+}
+
+#add {
+  width: 29%;
+  display: flex;
+  align-self: flex-end;
+  box-shadow: 5px 5px 5px black;
 }
