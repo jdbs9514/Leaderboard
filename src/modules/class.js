@@ -1,11 +1,11 @@
-export let dataBase = [];
+export const dataBase = [];
 export default class Leaderboard {
-    constructor (name, score) {
-        this.name = name;
-        this.score = score;
-    }
+  constructor(user, score) {
+    this.user = user;
+    this.score = score;
+  }
 
-    add(dataBase) {
-        dataBase.push(this);
-    }
+  add(dataBase) {
+    dataBase.push(this);
+  }
 }

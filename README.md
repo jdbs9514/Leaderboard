@@ -19,6 +19,10 @@ npm start
 
 The `npm install` command installs all dependencies used in the project while `npm start` is used to start the development server and view the application on the browser.
 
+- You can save the data into Api
+- you can catch the data and displayed in your HTML
+
+
 ## Built with
 
 - HTML, CSS, JavaScript
