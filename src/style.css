@@ -5,46 +5,144 @@
   font-family: 'Indie Flower', cursive;
 }
 
-#title {
-  margin-top: 50px;
+@media screen and (max-width: 768px) {
+  #title {
+    text-align: center;
+    color: #fff;
+    margin-top: 10%;
+  }
+
+  body {
+    background-image: url('./images/dota2-background-mobile.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .display-places {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .form-add {
+    margin-top: 20%;
+  }
+
+  .form-add h2 {
+    text-align: center;
+    color: #fff;
+  }
+
+  #form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5% 18%;
+  }
+
+  #inputname {
+    background: #273746;
+  }
+
+  #inputscore {
+    background: #273746;
+  }
+
+  #add {
+    margin: 5% 19%;
+    color: #fff;
+    background: #273746;
+  }
+
+  .score {
+    text-align: center;
+    color: #fff;
+    margin-top: 30%;
+  }
+
+  #refresh-button {
+    color: #fff;
+    background: #273746;
+  }
+
+  li:nth-child(even) {
+    background-color: #273746;
+  }
+
+  .element {
+    margin-right: 10%;
+    margin-left: 10%;
+    list-style-type: none;
+  }
 }
 
-.display-places {
-  margin-top: 50px;
-  display: flex;
-  justify-content: space-between;
-}
+@media screen and (min-width: 768px) {
+  #title {
+    margin-top: 50px;
+    color: #fff;
+  }
 
-#refresh-button {
-  box-shadow: 5px 5px 5px black;
-}
+  .display-places {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
 
-.table-title {
-  display: flex;
-  gap: 17px;
-}
+  #refresh-button {
+    box-shadow: 5px 5px 5px black;
+    color: #fff;
+    background: #273746;
+    border: none;
+  }
 
-.form-add {
-  margin-top: 10px;
-}
+  .table-title {
+    display: flex;
+    gap: 17px;
+    color: #fff;
+  }
 
-#form {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
+  .form-add {
+    margin-top: 10px;
+    color: #fff;
+  }
 
-body {
-  padding: 20%;
-}
+  #form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
 
-#add {
-  width: 29%;
-  display: flex;
-  align-self: flex-end;
-  box-shadow: 5px 5px 5px black;
-}
+  body {
+    padding: 20%;
+    background-image: url('./images/dota2-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
 
-li {
-  list-style-type: none;
+  #add {
+    width: 29%;
+    display: flex;
+    align-self: flex-end;
+    box-shadow: 5px 5px 5px black;
+    color: #fff;
+    background: #273746;
+    border: none;
+  }
+
+  .element {
+    list-style-type: none;
+    color: #fff;
+  }
+
+  li:nth-child(even) {
+    background-color: #273746;
+  }
+
+  #inputname {
+    background: #273746;
+  }
+
+  #inputscore {
+    background: #273746;
+  }
 }
