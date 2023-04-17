@@ -10,6 +10,10 @@ The leaderboard is a table to display score submitted by different palyers. in t
 
 Clone this repo: https://github.com/jdbs9514/Leaderboard.git
 
+## Live Demo
+
+https://frabjous-sopapillas-760a05.netlify.app/
+
 After cloning this project, run the following commands:
 
 ```markdown
